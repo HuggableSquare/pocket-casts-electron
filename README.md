@@ -8,19 +8,16 @@ Electron wrapper for Pocket Casts with media keys and TouchBar support
 # Installing and Building
 Development: 
 ```
-  git clone https://github.com/HuggableSquare/pocket-casts-electron
+  git clone https://github.com/HuggableSquare/pocket-casts-electron.git
   cd pocket-casts-electron
-  yarn
-  yarn global add electron
+  yarn install
   yarn run start
 ```
 Building and Using: 
 ```
-  git clone https://github.com/HuggableSquare/pocket-casts-electron
+  git clone https://github.com/HuggableSquare/pocket-casts-electron.git
   cd pocket-casts-electron
-  yarn
-  yarn global add electron
-  yarn global add electron-packager
+  yarn install
   yarn run build
 ```
 
