@@ -47,7 +47,8 @@ function createWindow() {
 		height: 750,
 		title: 'Pocket Casts',
 		titleBarStyle: 'hidden',
-		backgroundColor: '#060606'
+		backgroundColor: '#060606',
+		autoHideMenuBar: true
 	});
 
 	win.loadURL('https://playbeta.pocketcasts.com/web/');
