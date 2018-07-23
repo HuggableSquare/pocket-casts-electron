@@ -10,15 +10,15 @@ const utils = {
 	},
 
 	playPause() {
-		this.click('.animated-play-button');
+		this.click('.player-controls .play_pause_button');
 	},
 
 	next() {
-		this.click('.skip-forward-button');
+		this.click('.player-controls .skip_forward_button');
 	},
 
 	previous() {
-		this.click('.skip-back-button');
+		this.click('.player-controls .skip_back_button');
 	},
 
 	settings() {
