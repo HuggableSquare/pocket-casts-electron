@@ -51,11 +51,11 @@ module.exports = function() {
 				},
 				{
 					label: 'Forward',
-					click: () => utils.previous(),
+					click: () => utils.next(),
 				},
 				{
 					label: 'Backward',
-					click: () => utils.next(),
+					click: () => utils.previous(),
 				}
 			]
 		},
