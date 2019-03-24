@@ -51,7 +51,7 @@ function createWindow() {
 		autoHideMenuBar: true
 	});
 
-	win.loadURL('https://playbeta.pocketcasts.com/web/');
+	win.loadURL('https://play.pocketcasts.com/web/');
 
 	// win.openDevTools();
 
